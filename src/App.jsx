@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Footer from "./Footer";
 
 const officers = [
   {
@@ -170,6 +171,8 @@ function App() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </div>
   );
 }
