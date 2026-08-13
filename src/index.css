@@ -1,24 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800&display=swap");
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
+html,
+body,
+#root {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
   background: #edf2f8;
 }
 
 body {
-  min-width: 320px;
-  min-height: 100vh;
-  margin: 0;
+  overflow-x: hidden;
   background: #edf2f8;
   font-family: "Montserrat", Arial, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  display: block;
+  overflow-x: hidden;
 }
 
 body,
@@ -36,9 +53,6 @@ a {
 
 img,
 svg {
+  display: block;
   max-width: 100%;
-}
-
-#root {
-  min-height: 100vh;
 }
