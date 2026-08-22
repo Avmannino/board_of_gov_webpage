@@ -200,7 +200,7 @@ function FooterLogo() {
       <img
         src={`${
           import.meta.env.BASE_URL
-        }gsc-logo.png`}
+        }gsc-logo-two.png`}
         alt="Greenwich Skating Club"
       />
     </a>
@@ -334,7 +334,7 @@ function ConnectPanel() {
             <PinIcon />
 
             <span>
-              Cardinal Road · Greenwich, Connecticut
+              15 Cardinal Road · Greenwich, CT 06830
             </span>
           </a>
 

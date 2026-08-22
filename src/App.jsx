@@ -25,7 +25,7 @@ const governorClasses = [
   {
     year: "2027",
     members: [
-      "Amy Berkey",
+      "Amy Berkery",
       "Amanda Donnegar",
       "Jon Erensen",
       "Robin Prince",

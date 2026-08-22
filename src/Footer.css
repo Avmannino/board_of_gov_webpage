@@ -179,9 +179,9 @@
 
   width:
     clamp(
-      132px,
-      10vw,
-      172px
+      96px,
+      7vw,
+      130px
     );
 
   margin-left: 20px;
