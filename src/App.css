@@ -455,7 +455,7 @@
 
   .hero__title {
     align-items: center;
-    font-size: clamp(3.8rem, 19vw, 5rem);
+    font-size: clamp(4.2rem, 21vw, 5.5rem);
   }
 
   .hero__season {
@@ -527,7 +527,7 @@
 
 @media (max-width: 380px) {
   .hero__title {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
   }
 
   .governor-card {

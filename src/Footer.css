@@ -179,9 +179,9 @@
 
   width:
     clamp(
-      96px,
-      7vw,
-      130px
+      82px,
+      6vw,
+      110px
     );
 
   margin-left: 20px;
@@ -281,11 +281,19 @@
   display: inline-flex;
   flex: 0 0 auto;
 
+  color:
+    var(--footer-red);
+
   transform:
     rotate(90deg);
 
   transition:
     transform 220ms ease;
+}
+
+.footer-menu__group-arrow svg {
+  color:
+    var(--footer-red);
 }
 
 .footer-menu__group-arrow--open {
@@ -395,10 +403,6 @@
 
   margin-top: 27px;
   padding-top: 40px;
-
-  border-top:
-    1px solid
-    var(--footer-line);
 }
 
 .footer-connect__info {
@@ -714,7 +718,7 @@
   }
 
   .footer-logo {
-    width: 138px;
+    width: 118px;
   }
 
   .footer-menu__groups {
@@ -781,7 +785,7 @@
     position: relative;
     left: -8px;
 
-    width: 110px;
+    width: 94px;
 
     margin: 0 auto;
   }
@@ -817,6 +821,8 @@
 
     gap: 14px;
     padding: 7px 14px;
+
+    transform: translateX(10px);
 
     text-align: center;
   }

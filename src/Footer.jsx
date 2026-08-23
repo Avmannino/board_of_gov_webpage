@@ -87,7 +87,7 @@ const exploreGroups = [
         href: `${SITE_URL}/directions`,
       },
       {
-        label: "Contact Form",
+        label: "Contact Us",
         href: `${SITE_URL}/contact`,
       },
     ],
