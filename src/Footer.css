@@ -731,6 +731,10 @@
     column-gap: 34px;
   }
 
+  .footer-menu__group li a {
+    transform: translateX(10px);
+  }
+
   .footer-connect {
     grid-column: auto;
     grid-row: auto;
@@ -814,6 +818,18 @@
     justify-content: center;
 
     text-align: center;
+  }
+
+  .footer-menu__group-title > span:first-child {
+    transform: translateX(10px);
+  }
+
+  .footer-menu__group-arrow {
+    transform: translateX(10px) rotate(90deg);
+  }
+
+  .footer-menu__group-arrow--open {
+    transform: translateX(10px) rotate(-90deg);
   }
 
   .footer-menu__group li a {
