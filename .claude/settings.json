@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --no-install playwright --version)",
+      "Bash(node -e \"require\\('playwright'\\)\")",
+      "Bash(NODE_PATH=/home/avmannino/.npm/_npx/e41f203b7505f1fb/node_modules node /tmp/claude-1000/-home-avmannino-development-code-projects-gsc-board-of-gov-webpage/ddf7c721-0caa-493e-babe-5c015081ea93/scratchpad/screenshot.js)",
+      "Bash(lsof -ti:5173 -sTCP:LISTEN)",
+      "Bash(git status *)",
+      "Bash(git commit -m ' *)",
+      "Bash(NODE_PATH=/home/avmannino/.npm/_npx/e41f203b7505f1fb/node_modules node /tmp/claude-1000/-home-avmannino-development-code-projects-gsc-board-of-gov-webpage/ddf7c721-0caa-493e-babe-5c015081ea93/scratchpad/shot2.js)",
+      "Bash(NODE_PATH=/home/avmannino/.npm/_npx/e41f203b7505f1fb/node_modules node -e ' *)",
+      "Bash(echo \"---exit:$?---\")"
+    ],
+    "additionalDirectories": [
+      "/home/avmannino/.claude"
+    ]
+  }
+}
